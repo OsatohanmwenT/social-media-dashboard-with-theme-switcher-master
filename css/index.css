@@ -1,0 +1,13 @@
+@import url("./base.css");
+@import url("./darkMode.css");
+
+@import url("header/header.css");
+@import url("header/toggleBtn.css");
+
+@import url("./reset.css");
+
+@import url("main/main.css");
+@import url("main/topSection.css");
+@import url("main/bottomSection.css");
+
+@import url("./typography.css");

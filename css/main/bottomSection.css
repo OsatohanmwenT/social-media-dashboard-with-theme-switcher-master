@@ -1,0 +1,60 @@
+.container .bottom {
+    display: grid;
+    gap: 1rem;
+}
+
+.container .bottom {
+    color: var(--Heading-Text);
+}
+
+.bottom .account-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem,1fr));
+    gap: 1rem;
+}
+
+.bottom .account-cards .card {
+    border-radius: 0.3rem;
+    background-color: var(--Blue-card-BG);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.bottom .account-cards .card .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom .account-cards .card .head .article-name {
+    font-size: 0.9rem;
+    color: var(--Blue-Text);
+    font-weight: 700;
+}
+
+.bottom .account-cards .card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .account-cards .card .content .percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.bottom .account-cards .card .content .percent span {
+    color: var(--Lime-Green);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.bottom .account-cards .card .content .percent span.down {
+    color: var(--Bright-Red);
+}
+
+

@@ -1,0 +1,69 @@
+.header, .title-info {
+    font-weight: 700;
+}
+
+.header .title-info {
+    color: var(--Heading-Text);
+    font-weight: 700;
+}
+.main-heading{
+    font-size: 1.8rem;
+}
+#total-followers, .bottom-heading{
+    font-size: 1.2rem;
+}
+
+.sub-heading, .card-title {
+
+    color: var(--Blue-Text);
+}
+.sub-heading{
+    font-size: revert;
+}
+
+
+.user-name{
+    color: var(--Blue-Text);
+}
+
+
+.day {
+    color: var(--Lime-Green);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.down {
+    color: var(--Bright-Red);
+}
+
+.count .article-name  {
+    color: var(--Blue-Text);
+    letter-spacing: 0.3rem;
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.top .app-card .head  {
+    font-size: 0.9rem;
+    color: var(--Blue-Text);
+}
+
+
+@media (max-width: 35rem) {
+    .toggle-text {
+        font-size: 0.7rem;
+    }
+
+    .header .title-info{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .header .title-info{
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+}
