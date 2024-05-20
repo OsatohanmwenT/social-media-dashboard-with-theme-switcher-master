@@ -1,0 +1,58 @@
+.container .top {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(9rem,1fr));
+}
+
+.container .top .app-card {
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 0.3rem solid var(--Facebook);
+    border-radius: 0.2rem 0.2rem 0.6rem 0.6rem;
+    background-color: var(--Top-BG-Pattern);
+}
+
+.container .top .app-card.tweet {
+    border-top: 0.3rem solid var(--Twitter);
+}
+
+.container .top .app-card.insta {
+    border-top: 0.3rem solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+
+.container .top .app-card.youtube {
+    border-top: 0.3rem solid var(--YouTube);
+}
+
+.top .app-card .head {
+    align-self: center;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.top .app-card .count {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.top .app-card .count .number {
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: var(--Heading-Text);
+}
+
+
+.top .app-card .day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}

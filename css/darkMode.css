@@ -1,0 +1,8 @@
+
+.dark-mode {
+    --BG: hsl(230, 17%, 14%);
+    --Top-BG-Pattern: hsl(232, 19%, 15%);
+    --Blue-card-BG: hsl(228, 28%, 20%);
+    --Blue-Text: hsl(228, 34%, 66%);
+    --Heading-Text: hsl(0, 0%, 100%);
+}
